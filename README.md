@@ -7,23 +7,7 @@ Package license: GPL-2.0-or-later
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-collapse-feedstock/blob/main/LICENSE.txt)
 
-Summary: A C/C++ based package for advanced data transformation and 
-    statistical computing in R that is extremely fast, class-agnostic,
-    and programmer friendly through a flexible, parsimonious, and robust API.
-    Core functionality includes a rich set of S3 generic grouped and weighted 
-    statistical functions for vectors, matrices and data frames, which provide
-    efficient low-level vectorizations and OpenMP multithreading (reducing the 
-    need for iteration/vectorization in R), and skip missing values by default. 
-    These are integrated with fast grouping and ordering algorithms (also callable 
-    from C), and efficient data manipulation functions. The package also provides 
-    a flexible and rigorous approach to time series and panel data in R. It further 
-    includes fast functions for common statistical procedures, detailed (grouped, 
-    weighted) summary statistics, powerful tools to work with nested data, fast 
-    data object conversions, functions for memory efficient R programming, and 
-    helpers to effectively deal with variable labels, attributes, and missing data. 
-    It is well integrated with basic R, 'dplyr'/'tibble', 'data.table', 'sf', 'plm' 
-    (panel-series and data frames), and accommodates (by virtue of smart internal 
-    attribute handling) many other classes (like 'ts', 'xts'/'zoo' or 'tsibble').
+Summary: A C/C++ based package for advanced data transformation and statistical computing in R that is extremely fast, class-agnostic, and programmer friendly through a flexible, parsimonious, and robust API. Core functionality includes a rich set of S3 generic grouped and weighted   statistical functions for vectors, matrices and data frames, which provide efficient low-level vectorizations and OpenMP multithreading (reducing the   need for iteration/vectorization in R), and skip missing values by default. These are integrated with fast grouping and ordering algorithms (also callable   from C), and efficient data manipulation functions. The package also provides a flexible and rigorous approach to time series and panel data in R. It further   includes fast functions for common statistical procedures, detailed (grouped, weighted) summary statistics, powerful tools to work with nested data, fast   data object conversions, functions for memory efficient R programming, and helpers to effectively deal with variable labels, attributes, and missing data.   It is well integrated with basic R, 'dplyr'/'tibble', 'data.table', 'sf', 'plm' (panel-series and data frames), and accommodates (by virtue of smart internal   attribute handling) many other classes (like 'ts', 'xts'/'zoo' or 'tsibble').
 
 Current build status
 ====================
@@ -46,35 +30,35 @@ Current build status
               <td>linux_64_r_base4.1</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=15498&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-collapse-feedstock?branchName=main&jobName=linux&configuration=linux_64_r_base4.1" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-collapse-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_r_base4.1" alt="variant">
                 </a>
               </td>
             </tr><tr>
               <td>linux_64_r_base4.2</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=15498&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-collapse-feedstock?branchName=main&jobName=linux&configuration=linux_64_r_base4.2" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-collapse-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_r_base4.2" alt="variant">
                 </a>
               </td>
             </tr><tr>
               <td>osx_64_r_base4.1</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=15498&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-collapse-feedstock?branchName=main&jobName=osx&configuration=osx_64_r_base4.1" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-collapse-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_r_base4.1" alt="variant">
                 </a>
               </td>
             </tr><tr>
               <td>osx_64_r_base4.2</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=15498&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-collapse-feedstock?branchName=main&jobName=osx&configuration=osx_64_r_base4.2" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-collapse-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_r_base4.2" alt="variant">
                 </a>
               </td>
             </tr><tr>
               <td>win_64</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=15498&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-collapse-feedstock?branchName=main&jobName=win&configuration=win_64_" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-collapse-feedstock?branchName=main&jobName=win&configuration=win%20win_64_" alt="variant">
                 </a>
               </td>
             </tr>
