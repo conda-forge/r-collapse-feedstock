@@ -1,11 +1,22 @@
+About r-collapse-feedstock
+==========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-collapse-feedstock/blob/main/LICENSE.txt)
+
 About r-collapse
-================
+----------------
 
 Home: https://sebkrantz.github.io/collapse/, https://github.com/SebKrantz/collapse, https://twitter.com/collapse_R
 
 Package license: GPL-2.0-or-later
 
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-collapse-feedstock/blob/main/LICENSE.txt)
+Summary: A C/C++ based package for advanced data transformation and statistical computing in R that is extremely fast, class-agnostic, and programmer friendly through a flexible, parsimonious, and robust API. Core functionality includes a rich set of S3 generic grouped and weighted   statistical functions for vectors, matrices and data frames, which provide efficient low-level vectorizations and OpenMP multithreading (reducing the   need for iteration/vectorization in R), and skip missing values by default. These are integrated with fast grouping and ordering algorithms (also callable   from C), and efficient data manipulation functions. The package also provides a flexible and rigorous approach to time series and panel data in R. It further   includes fast functions for common statistical procedures, detailed (grouped, weighted) summary statistics, powerful tools to work with nested data, fast   data object conversions, functions for memory efficient R programming, and helpers to effectively deal with variable labels, attributes, and missing data.   It is well integrated with basic R, 'dplyr'/'tibble', 'data.table', 'sf', 'plm' (panel-series and data frames), and accommodates (by virtue of smart internal   attribute handling) many other classes (like 'ts', 'xts'/'zoo' or 'tsibble').
+About r-collapse
+----------------
+
+Home: https://sebkrantz.github.io/collapse/, https://github.com/SebKrantz/collapse, https://twitter.com/collapse_R
+
+Package license: GPL-2.0-or-later
 
 Summary: A C/C++ based package for advanced data transformation and statistical computing in R that is extremely fast, class-agnostic, and programmer friendly through a flexible, parsimonious, and robust API. Core functionality includes a rich set of S3 generic grouped and weighted   statistical functions for vectors, matrices and data frames, which provide efficient low-level vectorizations and OpenMP multithreading (reducing the   need for iteration/vectorization in R), and skip missing values by default. These are integrated with fast grouping and ordering algorithms (also callable   from C), and efficient data manipulation functions. The package also provides a flexible and rigorous approach to time series and panel data in R. It further   includes fast functions for common statistical procedures, detailed (grouped, weighted) summary statistics, powerful tools to work with nested data, fast   data object conversions, functions for memory efficient R programming, and helpers to effectively deal with variable labels, attributes, and missing data.   It is well integrated with basic R, 'dplyr'/'tibble', 'data.table', 'sf', 'plm' (panel-series and data frames), and accommodates (by virtue of smart internal   attribute handling) many other classes (like 'ts', 'xts'/'zoo' or 'tsibble').
 
