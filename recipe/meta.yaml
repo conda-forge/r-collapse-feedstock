@@ -1,4 +1,4 @@
-{% set version = "2.0.7" %}
+{% set version = "2.0.9" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/collapse_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/collapse/collapse_{{ version }}.tar.gz
-  sha256: 6c854941a96822d28f2a25d5c205483b86b547b364df1c2e83d17febc8bbfb6b
+  sha256: 484cb8cc8cdece80691918ba8738d88a0400f350806496b47ea3bd8c5bf82c31
 
 build:
   merge_build_host: true  # [win]
