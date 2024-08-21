@@ -1,4 +1,4 @@
-{% set version = "2.0.15" %}
+{% set version = "2.0.16" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/collapse_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/collapse/collapse_{{ version }}.tar.gz
-  sha256: 5a2c8323fe1f2f36b1c3ec19ff60cd75324ad2b9e31199fd1c5acd067d19eaa6
+  sha256: ccb1338c337d33ec5932bb124f1aacd9a5bc7d92e92cfc396fe08c108bc3adb6
 
 build:
-  number: 1
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
