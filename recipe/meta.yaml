@@ -36,13 +36,16 @@ requirements:
     - {{ posix }}sed               # [win]
     - {{ posix }}coreutils         # [win]
     - {{ posix }}zip               # [win]
-    - cross-r-base {{ r_base }}    # [build_platform != target_platform]
+    - libgomp                      # [linux]
+    - llvm-openmp                  # [osx]
   host:
     - r-base
     - r-rcpp >=1.0.1
+    - llvm-openmp                  # [osx]
   run:
     - r-base
     - r-rcpp >=1.0.1
+    - llvm-openmp                  # [osx]
 
 test:
   commands:
